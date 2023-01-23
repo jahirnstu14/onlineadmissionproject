@@ -1,0 +1,136 @@
+body {
+  margin: none;
+  padding: none;
+}
+
+.navbar { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.background {
+  background: black;
+}
+
+.nav-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: larger;
+  background-position: 0;
+}
+
+#userOf {
+  color: white;
+}
+
+#userOf option {
+  color: black;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+  /* commented for demo
+  float: left;
+  margin-left: 125px;
+  margin-top: 20px;
+  */
+
+  /*for demo*/
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo img {
+  width: 100%;
+  height:100%;
+  float: left;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 26px 30px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover {
+  color: grey;
+}
+
+.rightnav {
+  width: 30%;
+  text-align: right;
+}
+
+#search {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 9px;
+}
+
+.firstsection {
+  background-color: green;
+  height: 400px;
+  display: flex;
+  background-color: green;
+}
+.firstsectiondiv1 {
+  font-size: 300%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: bold;
+  width: 50%;
+
+  padding: 30px;
+  margin: 100px;
+}
+.firstsectiondiv2 {
+  margin-left: 40px;
+  margin-right: 100px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.secondsection {
+  background-color: brown;
+  height: 300px;
+  font-size: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: bold;
+  width: 100%;
+
+  padding: auto;
+  margin: auto;
+  display: flex;
+  justify-content: right;
+}
+
+.background {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.text-footer {
+  text-align: center;
+  padding: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+}

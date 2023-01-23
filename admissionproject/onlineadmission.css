@@ -1,0 +1,72 @@
+body {
+  margin: none;
+  padding: none;
+}
+
+form {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.background {
+  background: black;
+}
+
+.nav-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: larger;
+  background-position: 0;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 26px 30px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover {
+  color: grey;
+}
+
+.rightnav {
+  width: 30%;
+  text-align: right;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea,
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3cbc8d;
+  color: white;
+}
+
+.form a {
+  text-decoration: none;
+  color: black;
+  background-color: antiquewhite;
+}

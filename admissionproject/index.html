@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="slider.css">
+  </head>
+  <body>
+    <div class="navbar background">
+      <ul class="nav-list">
+        <div class="logo">
+          <img src="images/12c34692c2c4dd56ce39230f5e623d8b.png" />
+        </div>
+        <li><a href="index.html" target="_self">Home</a></li>
+        <li><a href="teacherlogin.php">Log In</a></li>
+        <li><a href="teachersignup.php">Sign Up</a></li>
+        <li><a href="onlineadmission.php">Online Admission</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <div class="rightNav">
+        <input type="text" name="search" id="search" />
+        <button class="btn btn-sm">Search</button>
+      </div>
+    </div>
+
+
+     <!-- js slider starts -->
+     <section>
+          
+      <div>
+        <div class="images-slideshow">
+          <div class="imageSlides">
+            <img src="images/admission-word-cloud-concept-grey-background-90878637.jpg" />
+          </div>
+          <div class="imageSlides">
+            <img src="images/Online_admissions_comp_600_1.jpg" />
+          </div>
+          <div class="imageSlides">
+            <img src="images/houbacze180901078.jpg" />
+          </div>
+        
+          <a class="slider-btn previous" onclick="setSlides(-1)">❮</a>
+          <a class="slider-btn next" onclick="setSlides(1)">❯</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- js slider ends -->
+
+    <section class="firstsection">
+      <div class="firstsectiondiv1">
+        <p>Software for Admission</p>
+      </div>
+      <div class="firstsectiondiv2">
+        <img src="images/edutech.png" alt="iages is not find" />
+      </div>
+    </section>
+
+    <section class="secondsection">
+      <div id="secondsectiondiv1">
+        <p>Science and Technology University Sonapur,</p>
+        <p>University Rd, Noakhali 3814</p>
+        <p>Phone: 02334496522,Fax: 02334496523</p>
+        <p>E-mail: registrar@office.nstu.edu.bd</p>
+      </div>
+    </section>
+
+    <footer class="background">
+      <p class="text-footer">
+        2022 Copyright: Noakhali Science and Technology University (NSTU)
+      </p>
+    </footer>
+    <script src="slider.js"></script>
+  </body>
+</html>
